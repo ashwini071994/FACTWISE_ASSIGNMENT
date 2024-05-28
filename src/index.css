@@ -11,3 +11,81 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.user-card h2 {
+  margin: 0;
+}
+
+.user-actions button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.user-actions button:hover {
+  background-color: #0056b3;
+}
+
+.user-list {
+  margin: 20px;
+}
+
+.user-list input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.user-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.user-header {
+  background-color: #ddd;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-details {
+  padding: 10px;
+}
+
+.user-actions button {
+  margin-right: 10px;
+}
+
+.edit-user-form input,
+.edit-user-form select,
+.edit-user-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.edit-user-form button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.edit-user-form button[disabled] {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.edit-user-form button:not([disabled]):hover {
+  background-color: #218838;
+}
+
+
+
+
